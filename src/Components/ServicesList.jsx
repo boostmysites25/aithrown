@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState, startTransition } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { allServices } from "../contant";
 import { Link as ScrollLink, Element, scroller } from "react-scroll";
@@ -22,15 +22,17 @@ const ServicesList = () => {
   const navigate = useNavigate();
   // Set active service
   const handleServiceSelect = (item) => {
-    navigate(item.link);
-    setSelectedService(item);
+    startTransition(() => {
+      navigate(item.link);
+      setSelectedService(item);
+    });
   };
 
   return (
     <section className="wrapper py-[2rem]">
-      <h1 className="heading text-center mb-8 text-white">
-        Explore Our Offering
-      </h1>
+      <h2 className="heading text-center mb-8 text-white">
+        AI Solutions for Business Growth
+      </h2>
       <div className="grid md:grid-cols-[38%_58%] gap-10 p-5 bg-primary rounded-lg">
         <div className="w-full flex flex-col gap-10">
           <div
@@ -73,7 +75,7 @@ const ServicesList = () => {
                 to={selectedService.link}
                 className="secondary-btn w-fit mt-6"
               >
-                Read More
+                Explore our {selectedService.title.toLowerCase()} solutions
               </Link>
             </div>
           </Element>

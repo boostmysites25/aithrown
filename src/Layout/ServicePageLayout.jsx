@@ -1,4 +1,5 @@
-import { Link, Outlet, useLocation } from "react-router-dom";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsClock } from "react-icons/bs";
@@ -12,7 +13,7 @@ import WhatsAppIcon from "../Components/WhatAppIcon";
 import AppGalaxy from "../Components/AppGalaxy";
 import { Toaster } from "react-hot-toast";
 
-const ServicePageLayout = () => {
+const ServicePageLayout = ({ children }) => {
   const { pathname } = useLocation();
   return (
     <>
@@ -96,7 +97,7 @@ const ServicePageLayout = () => {
               </div>
             </div>
             <div className="w-full">
-              <Outlet />
+              {children}
             </div>
 
             <div

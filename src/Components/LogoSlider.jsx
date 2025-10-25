@@ -1,10 +1,12 @@
-import { useKeenSlider } from "keen-slider/react";
+import React from "react";
+// import { useKeenSlider } from "keen-slider/react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo/logo.png";
 const animation = { duration: 20000, easing: (t) => t };
 
 const LogoSlider = () => {
-  const [sliderRef] = useKeenSlider({
+  // Temporarily disable keen-slider to test React context
+  // const [sliderRef] = useKeenSlider({
     loop: true,
 
     renderMode: "performance",

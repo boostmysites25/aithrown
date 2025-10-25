@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 const Counter = ({ targetNumber, suffix = "" }) => {
   const [count, setCount] = useState(0);
@@ -47,7 +47,7 @@ const Counter = ({ targetNumber, suffix = "" }) => {
   }, [hasStarted, targetNumber]);
 
   return (
-    <h1
+    <div
       ref={counterRef}
       className="text-[37px] font-bold sm:text-[57px] min-w-[10rem] text-white text-center "
     >
@@ -58,7 +58,7 @@ const Counter = ({ targetNumber, suffix = "" }) => {
           Countries
         </span>
       )}
-    </h1>
+    </div>
   );
 };
 

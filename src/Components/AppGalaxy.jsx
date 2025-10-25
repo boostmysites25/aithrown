@@ -32,6 +32,7 @@ const Project = ({ paddingTop, src, thumb }) => {
         <img
           src={thumb}
           alt="Thumbnail"
+          loading="lazy"
           style={{
             position: "absolute",
             top: 0,

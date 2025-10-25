@@ -1,3 +1,4 @@
+import React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import cardItemBg from "../../assets/images/service-slider-item-bg.png";
 
@@ -68,12 +69,12 @@ const BestServicesSlider = () => {
                     {description}
                   </p>
                 </div>
-                <Link
-                  to={link}
-                  className="absolute left-1/2 -translate-x-1/2 bottom-[0.5rem] z-20 text-[2rem] bg-white text-primary h-[3rem] w-[3rem] rounded-full border-2 border-primary flex items-center justify-center"
+                <button
+                  onClick={() => window.location.href = link}
+                  className="absolute left-1/2 -translate-x-1/2 bottom-[0.5rem] z-20 text-[2rem] bg-white text-primary h-[3rem] w-[3rem] rounded-full border-2 border-primary flex items-center justify-center hover:bg-primary hover:text-white transition-colors duration-300"
                 >
                   <FiArrowUpRight />
-                </Link>
+                </button>
               </Link>
             ))}
           </div>

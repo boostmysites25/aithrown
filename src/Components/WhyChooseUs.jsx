@@ -16,7 +16,7 @@ const WhyChooseUs = () => {
             data-aos="fade-up"
             className="text-smhead text-white sm:text-start text-center leading-tight"
           >
-            Why Choose Us
+            Why Choose Aithrown
           </h2>
           <div>
             <h2
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
                         <img
                           src={obj.icon}
                           className="h-[3rem] object-contain grayscale"
-                          alt=""
+                          alt={`${obj.heading} - Professional AI solution icon representing expertise and innovation`}
                         />
                       </div>
                       <h5 className="text-head text-white">{obj.heading}</h5>

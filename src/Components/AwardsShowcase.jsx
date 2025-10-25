@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import image from "../assets/awards/award.jpg";
 import image1 from "../assets/awards/award1.jpg";
 import image2 from "../assets/awards/award2.jpg";
@@ -55,6 +55,7 @@ const AwardsShowcase = () => {
                     src={img}
                     alt={`award-image-${index}`}
                     className="w-full h-full object-contain"
+                    loading="lazy"
                   />
                 </div>
               ))}

@@ -3,11 +3,29 @@ import PageBanner from "../Components/PageBanner";
 import { allServices } from "../contant";
 import { FiArrowUpRight } from "react-icons/fi";
 import Testimonials from "../Components/Testimonials";
+import SEO from "../Components/SEO";
+import SocialShare from "../Components/SocialShare";
 
 const ServicesPage = () => {
   return (
     <div>
+      <SEO 
+        title="AI Services for Businesses | Aithrown"
+        description="Explore Aithrown's AI services for businesses, from automation to predictive analytics, designed to increase efficiency and growth."
+        keywords="AI services, business automation, predictive analytics, AI solutions, machine learning, artificial intelligence"
+        canonical="https://www.aithrown.com/services"
+      />
       <PageBanner title={"Our Services"} />
+      
+      {/* Social Sharing Section */}
+      <div className="wrapper py-8">
+        <SocialShare 
+          url="https://www.aithrown.com/services"
+          title="AI Services for Businesses | Aithrown"
+          description="Explore Aithrown's AI services for businesses, from automation to predictive analytics, designed to increase efficiency and growth."
+        />
+      </div>
+      
       <section className="py-[5rem]">
         <div className="wrapper">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 md:grid-rows-2 gap-6 md:gap-10">
@@ -22,7 +40,7 @@ const ServicesPage = () => {
                   <img
                     loading="lazy"
                     src={item.img}
-                    alt={item.title}
+                    alt={`${item.title} - AI-powered business solution for enhanced efficiency and growth`}
                     className="object-contain w-[70%] min-h-[222px] max-w-[15rem]"
                   />
                   <h6 className="text-xl font-semibold">{item.title}</h6>

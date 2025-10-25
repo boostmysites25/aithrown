@@ -1,3 +1,4 @@
+import React from "react";
 import bgImg from "../assets/images/testimonial-bg.png";
 import { useKeenSlider } from "keen-slider/react";
 import { RiDoubleQuotesR } from "react-icons/ri";
@@ -65,9 +66,9 @@ const Testimonials = () => {
         <p className="uppercase z-10 relative mb-2 gradient-text">
           testimonials
         </p>
-        <h1 className="heading z-10 relative text-center capitalize">
-          people say about us
-        </h1>
+        <h2 className="heading z-10 relative text-center capitalize">
+          Success Stories
+        </h2>
       </div>
       <div data-aos="fade-left" ref={sliderRef} className="keen-slider">
         {testimonials.map(({ id, img, title, name, description }, index) => (

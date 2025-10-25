@@ -128,7 +128,7 @@ export const allServices = [
     img: service3,
     title: "Artificial Intelligence",
     description:
-      "In order to scale new customer acquisition and retention commerce brands, we work across",
+      "Transform your business with AI solutions for business growth, featuring predictive analytics and AI automation tools that streamline operations and drive innovation.",
     link: "/services/artificial-intelligence",
     smallPara:
       "Artificial Intelligence (AI) has rapidly evolved from a concept in science fiction to a transformative force reshaping industries and societies. AI development, the process of creating intelligent systems capable of learning, reasoning, and problem-solving, is driving innovation and revolutionizing the way we live and work.\n\nAt the heart of AI development is the creation of algorithms and models that enable machines to learn from data and improve their performance over time. Machine learning, a subset of AI, involves training algorithms on large datasets to recognize patterns, make predictions, and automate tasks. Deep learning, a more advanced form of machine learning, utilizes artificial neural networks to process complex data and learn from it.",
@@ -148,7 +148,7 @@ export const allServices = [
     img: service5,
     title: "Robotic Process Automation (RPA)",
     description:
-      "In order to scale new customer acquisition and retention commerce brands, we work across",
+      "Streamline operations with AI automation tools that eliminate manual processes, reduce errors, and boost productivity through intelligent software robots.",
     link: "/services/rpa",
     smallPara:
       "Robotic Process Automation (RPA) is a technology that uses software robots to automate repetitive, rule-based tasks. These software robots can mimic human actions, interacting with applications and systems to perform tasks that were previously done manually. RPA has emerged as a powerful tool for businesses looking to improve efficiency, reduce costs, and enhance accuracy.\n\n One of the key benefits of RPA is its ability to automate repetitive tasks that are prone to human error. By eliminating manual intervention, RPA can significantly reduce the risk of mistakes and ensure consistency in processes. This can lead to improved quality and compliance, as well as reduced operational costs.",
@@ -189,7 +189,7 @@ export const allServices = [
     img: service9,
     title: "Data Analytics",
     description:
-      "Transforming data into actionable insights to drive strategic decisions.",
+      "Unlock business potential with predictive analytics and AI solutions for business that transform data into actionable insights for strategic growth.",
     link: "/services/data-analytics",
     smallPara:
       "Data Analytics is a powerful tool for extracting meaningful insights from raw data. Through techniques like descriptive, predictive, and prescriptive analytics, businesses can understand trends, anticipate outcomes, and optimize strategies.\n\n Data analytics development involves leveraging tools like machine learning, data visualization, and big data processing to uncover hidden patterns and opportunities. By making data-driven decisions, organizations can improve efficiency, enhance customer experiences, and achieve their goals with greater precision.",
