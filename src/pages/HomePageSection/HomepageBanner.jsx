@@ -50,14 +50,17 @@ const HomepageBanner = () => {
             AI Solutions for Modern Businesses
           </h1>
           <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-3xl">
-            Discover the power of AI solutions for business to revolutionize your operations, enhance
-            decision-making, and drive innovation. At Aithrown, we deliver
-            cutting-edge AI automation tools and predictive analytics designed to propel your business forward.
-            Experience the future of technology today.
+            Discover the power of AI solutions for business to revolutionize
+            your operations, enhance decision-making, and drive innovation. At
+            Aithrown, we deliver cutting-edge AI automation tools and predictive
+            analytics designed to propel your business forward. Experience the
+            future of technology today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors duration-300">
-              <Link to={"/contact-us"}>Discover our AI solutions for your business</Link>
+              <Link to={"/contact-us"}>
+                Discover our AI solutions
+              </Link>
             </button>
             <button className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-blue-600 transition-colors duration-300">
               <Link to={"/services"}>Explore our AI services</Link>

@@ -16,7 +16,7 @@ const WhatsAppIcon = () => {
       <img
         src={whatsappIcon}
         alt="WhatsApp Icon"
-        className="w-[3rem] h-[3rem] sm:w-[4rem] sm:h-[4rem] fill-green-500 group-hover:fill-primary group-hover:scale-110 rounded-full shadow-transparent shadow-large group-hover:shadow-primary/50 transition-all duration-300"
+        className="w-[3.5rem] h-[3.5rem] sm:w-[4rem] sm:h-[4rem] fill-green-500 group-hover:fill-primary group-hover:scale-110 rounded-full shadow-transparent shadow-large group-hover:shadow-primary/50 transition-all duration-300"
       />
     </a>
   );

@@ -75,7 +75,7 @@ const ServicesList = () => {
                 to={selectedService.link}
                 className="secondary-btn w-fit mt-6"
               >
-                Explore our {selectedService.title.toLowerCase()} solutions
+                Explore
               </Link>
             </div>
           </Element>
