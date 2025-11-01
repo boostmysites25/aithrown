@@ -190,7 +190,7 @@ const LandingPage = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-6">
+          <nav className="hidden lg:flex space-x-6">
             <button
               onClick={() => smoothScrollTo("solutions")}
               className="transition-colors duration-300 animate-fade-in animate-delay-100 hover:opacity-80 cursor-pointer bg-transparent border-none"
@@ -223,7 +223,7 @@ const LandingPage = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-white focus:outline-none"
+            className="lg:hidden text-white focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
@@ -236,7 +236,7 @@ const LandingPage = () => {
           {/* Desktop CTA Button */}
           <button
             onClick={() => smoothScrollTo("contact")}
-            className="hidden md:block px-4 py-2 rounded-md transition-colors duration-300 shadow-lg animate-fade-in"
+            className="hidden lg:block px-4 py-2 rounded-md transition-colors duration-300 shadow-lg animate-fade-in"
             style={{ backgroundColor: colors.primary, color: colors.common }}
           >
             Schedule a Free Consultation

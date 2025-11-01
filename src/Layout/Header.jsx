@@ -43,7 +43,7 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8 text-white">
+          <nav className="hidden lg:flex items-center space-x-8 text-white">
             {navItems.map((item, index) => (
               <Link
                 key={index}
@@ -62,7 +62,7 @@ const Header = () => {
           </nav>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button className="text-white p-2" onClick={toggleDrawer}>
               <svg
                 className="h-6 w-6"
